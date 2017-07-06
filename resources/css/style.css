@@ -1,0 +1,26 @@
+#header{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  height: 70px;
+  color: black;
+}
+
+.logo{
+margin: auto 10px;
+
+}
+
+span.logo_text{
+  color: MediumAquamarine;
+}
+
+.header_links{
+
+}
+.world {
+  color: black;
+}
