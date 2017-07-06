@@ -1,6 +1,7 @@
 #header{
   display: flex;
   align-items: center;
+  justify-content:
   border-bottom: 1px solid black;
   font-family: Verdana;
   font-size: 14px;
@@ -11,16 +12,87 @@
 
 .logo{
 margin: auto 10px;
-
+display: flex;
+align-items: center;
+padding-left: 10px;
 }
 
-span.logo_text{
-  color: MediumAquamarine;
+.logo span{
+color: MediumAquaMarine;
 }
 
-.header_links{
-
-}
-.world {
+nav span{
+  display: inline-block;
   color: black;
+  padding-left: 40px;
+}
+
+.container{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+
+}
+
+.main_image_text{
+  border: 1px solid black;
+}
+.monument{
+  border: 1px solid black;
+}
+
+.column.large {
+  width: 630px;
+  padding-right: 40px;
+}
+
+.puget{
+  border: 1px solid black;
+}
+
+.earth{
+  border: 1px solid black;
+}
+
+.burger{
+  border: 1px solid black;
+}
+
+.research{
+  border: 1px solid black;
+}
+
+
+
+.column.medium {
+  width: 300px;
+  padding-right: 40px;
+}
+
+.fbi{
+  border: 1px solid black;
+}
+
+.cats{
+  border: 1px solid black;
+}
+
+.brooklyn{
+  border: 1px solid black;
+}
+
+
+
+
+.column.small {
+  width: 240px;
+  padding-right: 20px;
+}
+
+.news_bites{
+  border: 1px solid black;
+}
+
+.image_cookie{
+  border: 1px solid black;
 }
