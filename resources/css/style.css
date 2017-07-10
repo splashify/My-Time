@@ -1,42 +1,54 @@
 #header{
   display: flex;
   align-items: center;
-  justify-content:
+  width: 100%;
+  height: 80px;
   border-bottom: 1px solid black;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  height: 70px;
   color: black;
+  position: fixed;
+  background-color: white;
 }
 
 .logo{
-margin: auto 10px;
 display: flex;
 align-items: center;
-padding-left: 10px;
+flex-grow: 1;
+padding: 20px 30px;
+color: MediumAquaMarine;
 }
 
 .logo span{
-color: MediumAquaMarine;
+
 }
 
 nav span{
   display: inline-block;
-  color: black;
-  padding-left: 40px;
+  padding: 20px 20px;
 }
 
 .container{
   display: flex;
-  margin-top: 20px;
   align-items: center;
-
+  padding-top: 100px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .main_image_text{
-  border: 1px solid black;
+  background-image: url(../../resources/images/img-story-main.png);
+  margin-top: 0;
+    width: 630px;
+    height: 300px;
+    font-size: 40px;
+    text-align: left;
+    border: 1px solid black;
+
 }
+
 .monument{
   border: 1px solid black;
 }
@@ -44,6 +56,7 @@ nav span{
 .column.large {
   width: 630px;
   padding-right: 40px;
+  padding-left: 20px;
 }
 
 .puget{
@@ -51,6 +64,7 @@ nav span{
 }
 
 .earth{
+  background-image: url(../../resources/images/img-story-spring.png);
   border: 1px solid black;
 }
 
@@ -80,9 +94,6 @@ nav span{
 .brooklyn{
   border: 1px solid black;
 }
-
-
-
 
 .column.small {
   width: 240px;
