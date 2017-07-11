@@ -21,6 +21,10 @@ padding: 20px 30px;
 color: MediumAquaMarine;
 }
 
+a{
+  color: black;
+}
+
 .logo span{
 
 }
@@ -75,6 +79,7 @@ nav span{
 
 .puget{
   flex-direction:column;
+  height: 250px;
 }
 
 .earth{
@@ -84,6 +89,7 @@ nav span{
 
 .burger{
   flex-direction:column;
+  height: 250px;
 }
 
 .research{
@@ -94,27 +100,41 @@ nav span{
 .fiddle{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+
 }
 
 .rows_1{
   width: 300px;
+  display: flex;
+  flex-direction: column;
 }
 
 .rows_2{
   width: 300px;
+  display: flex;
+  flex-direction: column;
 }
-
 
 
 .column.medium {
   width: 300px;
-
   padding-right: 40px;
 }
 
-.fbi{
+.catsColumn{
+  display: flex;
   flex-direction:column;
+}
+
+.fbi{
+  display: flex;
+  flex-direction:column;
+}
+
+.fbi h2{
+  margin-top: 0;
+    margin-bottom: 0;
+
 }
 
 .cats{
