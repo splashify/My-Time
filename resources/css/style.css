@@ -1,7 +1,7 @@
 #header{
   display: flex;
   align-items: center;
-  width: 99%;
+  width: 100%;
   height: 80px;
   border-bottom: 1px solid black;
   font-family: Verdana;
@@ -28,6 +28,7 @@ color: MediumAquaMarine;
 nav span{
   display: inline-block;
   padding: 20px 20px;
+  text-decoration: underline;
 }
 
 .container{
@@ -88,6 +89,20 @@ nav span{
 .research{
   background-image: url(../../resources/images/img-story-camera.png);
   display: flex;
+}
+
+.fiddle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rows_1{
+  width: 300px;
+}
+
+.rows_2{
+  width: 300px;
 }
 
 
