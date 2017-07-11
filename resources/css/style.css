@@ -1,7 +1,7 @@
 #header{
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 99%;
   height: 80px;
   border-bottom: 1px solid black;
   font-family: Verdana;
@@ -10,6 +10,7 @@
   color: black;
   position: fixed;
   background-color: white;
+  top: 0;
 }
 
 .logo{
@@ -62,7 +63,7 @@ nav span{
 }
 
 .monument{
-  border: 1px solid black;
+  display: flex;
 }
 
 .column.large {
@@ -72,53 +73,54 @@ nav span{
 }
 
 .puget{
-  border: 1px solid black;
+  flex-direction:column;
 }
 
 .earth{
   background-image: url(../../resources/images/img-story-spring.png);
-  border: 1px solid black;
+    display: flex;
 }
 
 .burger{
-
-  border: 1px solid black;
+  flex-direction:column;
 }
 
 .research{
   background-image: url(../../resources/images/img-story-camera.png);
-  border: 1px solid black;
+  display: flex;
 }
 
 
 
 .column.medium {
   width: 300px;
+
   padding-right: 40px;
 }
 
 .fbi{
-  border: 1px solid black;
+  flex-direction:column;
 }
 
 .cats{
   background-image: url(../../resources/images/img-story-cat.png);
-  border: 1px solid black;
+  flex-direction:column;
 }
 
 .brooklyn{
-  border: 1px solid black;
+  display: flex;
 }
 
 .column.small {
+  justify-content: flex-end;
   width: 240px;
   padding-right: 20px;
 }
 
 .news_bites{
-  border: 1px solid black;
+  flex-direction:column;
 }
 
 .image_cookie{
-  border: 1px solid black;
+  display: flex;
 }
