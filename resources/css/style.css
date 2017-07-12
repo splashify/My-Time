@@ -38,6 +38,7 @@ nav span{
 .container{
   display: flex;
   padding-top: 100px;
+  padding-bottom: 30px;
   font-family: Georgia;
   font-size: 17px;
   color: black;
