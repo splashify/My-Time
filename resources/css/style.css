@@ -17,7 +17,7 @@
 display: flex;
 align-items: center;
 flex-grow: 1;
-padding: 20px 30px;
+padding-left: 20px;
 color: MediumAquaMarine;
 }
 
@@ -31,8 +31,12 @@ margin-right: 12px;
 
 nav span{
   display: inline-block;
-  padding: 20px 20px;
+  padding-right: 30px;
+  justify-content: space-between;
   text-decoration: underline;
+}
+#header nav{
+  padding-right: 30px;
 }
 
 .container{
@@ -58,7 +62,7 @@ nav span{
 }
 
 .image_text{
-
+  display: flex;
   height: 300px;
   font-family: Georgia;
   font-size: 30px;
@@ -133,7 +137,7 @@ nav span{
 
 .fbi h2{
   margin-top: 0;
-    margin-bottom: 0;
+  margin-bottom: 0;
 
 }
 
@@ -197,6 +201,10 @@ font-weight: bold;
   font-size: 16px;
   font-weight: bold;
   color: white;
+}
+
+.footer nav{
+  padding-left: 30px;
 }
 
 #copyright{
