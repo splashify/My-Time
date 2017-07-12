@@ -41,19 +41,19 @@ nav span{
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  justify-content: space-around;
 }
 
 .main_image{
   background-image: url(../../resources/images/img-story-main.png);
   margin-top: 0;
-    width: 630px;
-    height: 300px;
-    border: 1px solid black;
-    font-size: 40px;
-
-    font-family: Georgia;
-    font-weight: bold;
-    color: white;
+  width: 630px;
+  height: 300px;
+  border: 1px solid black;
+  font-size: 40px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
 }
 
 .image_text{
@@ -177,4 +177,29 @@ font-weight: bold;
 
 .image_cookie{
   display: flex;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: : 100px;
+  height: 325px;
+  align-items: center;
+}
+
+#footer_title{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+#copyright{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
