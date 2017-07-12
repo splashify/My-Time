@@ -25,6 +25,10 @@ a{
   color: black;
 }
 
+h2{
+  font-size: 30px;
+}
+
 .logo img{
 margin-right: 12px;
 }
@@ -76,11 +80,16 @@ nav span{
   color: white;
   height: 300px;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+  background-repeat: no-repeat;
+
 }
 
 .monument{
   display: flex;
 }
+
 
 .column.large {
   width: 630px;
@@ -96,6 +105,7 @@ nav span{
 .earth{
   background-image: url(../../resources/images/img-story-spring.png);
     display: flex;
+    align-items: center;
 }
 
 .burger{
@@ -106,6 +116,7 @@ nav span{
 .research{
   background-image: url(../../resources/images/img-story-camera.png);
   display: flex;
+  align-items: center;
 }
 
 .fiddle{
@@ -145,12 +156,12 @@ nav span{
 .fbi h2{
   margin-top: 0;
   margin-bottom: 0;
-
 }
 
 .cats{
   background-image: url(../../resources/images/img-story-cat.png);
-  flex-direction:column;
+  display: flex;
+  align-items: center;
 }
 
 .brooklyn{
@@ -218,7 +229,6 @@ font-weight: bold;
 
 .footer nav{
   padding-left: 40px;
-
 }
 
 #copyright{
