@@ -55,19 +55,26 @@ nav span{
   width: 630px;
   height: 300px;
   border: 1px solid black;
-  font-size: 40px;
+}
+
+.main_image p{
+  display: flex;
   font-family: Georgia;
+  font-size: 40px;
   font-weight: bold;
   color: white;
+  text-align: left;
+  margin-top: 80px;
+  padding-left: 40px;
 }
 
 .image_text{
   display: flex;
-  height: 300px;
   font-family: Georgia;
   font-size: 30px;
   font-weight: bold;
   color: white;
+  height: 300px;
   text-align: center;
 }
 
@@ -186,6 +193,7 @@ font-weight: bold;
 
 .footer{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background-color: MediumAquamarine;
   margin: auto;
@@ -197,14 +205,20 @@ font-weight: bold;
 }
 
 #footer_title{
+  display: flex;
   font-family: Georgia;
   font-size: 16px;
   font-weight: bold;
   color: white;
 }
 
+.footer_info{
+  display: flex;
+}
+
 .footer nav{
-  padding-left: 30px;
+  padding-left: 40px;
+
 }
 
 #copyright{
