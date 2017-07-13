@@ -17,7 +17,7 @@
 display: flex;
 align-items: center;
 flex-grow: 1;
-padding-left: 20px;
+padding-left: 40px;
 color: MediumAquaMarine;
 }
 
@@ -38,6 +38,7 @@ nav span{
   padding-right: 30px;
   justify-content: space-between;
   text-decoration: underline;
+  line-height: 1.6
 }
 #header nav{
   padding-right: 30px;
